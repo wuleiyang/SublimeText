@@ -1,0 +1,12 @@
+*{margin: 0;padding: 0;border: 0;list-style-type: none;text-decoration: none;}
+
+#fullbg {background-color:gray;left:0;opacity:0.5;position:absolute;top:0;z-index:3;
+filter:alpha(opacity=50);
+-moz-opacity:0.5;
+-khtml-opacity:0.5;
+}
+#dialog {z-index:5;left:50%;position:absolute;top:50%;margin: -200px 0 0 -200px;display:none;position:fixed !important;}
+ .share_box_list{width: 270px;height: 236px;border: 3px solid #215B8B;background: #fff;}
+ .share_box_list .box_title{text-align: center;background: #215B8B;height: 30px;line-height: 30px;color: #fff;font-size: 16px;font-family: '黑体';}
+  .share_box_list ul li{float: left;text-decoration: none;width: 90px;height: 60px;margin: 15px 0;text-align: center;}
+  .share_box_list ul li a p{margin-top: 10px;height: 12px;line-height: 12px;text-align: center;color: #999;	} 
