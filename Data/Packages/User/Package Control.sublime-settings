@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"Emmet",
+		"GBK Encoding Support",
+		"Goto-CSS-Declaration",
+		"jQuery-master",
+		"JsFormat",
+		"Package Control",
+		"Prefixr",
+		"SourceTalk"
+	]
+}

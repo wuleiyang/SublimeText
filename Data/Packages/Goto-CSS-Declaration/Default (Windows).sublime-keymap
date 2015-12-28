@@ -1,0 +1,11 @@
+	//跳转到css样式的声明处，对应的css样式要打开。使用：对css样式点右键，选择Go-To-Css
+[
+    {
+        "keys": ["super+alt+."], "command": "goto_css_declaration",
+        "args": {"goto": "next"}
+    },
+    {
+        "keys": ["super+alt+,"],  "command": "goto_css_declaration",
+        "args": {"goto": "prev"}
+    }
+]

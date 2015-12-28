@@ -1,0 +1,1 @@
+{"description": "SourceTalk plugin for Sublime Text 2/3 allows you to initialize a code discussion conference directly from your editor", "url": "https://github.com/malroc/sourcetalk_st2", "platforms": ["*"], "version": "2.0.0", "sublime_text": "*", "dependencies": []}

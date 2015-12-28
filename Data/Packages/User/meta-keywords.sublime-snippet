@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<meta name="description" content="网站介绍${1}" />
+<meta name="keywords" content="Java学习,QQ空间代码,免费电影,在线游戏">
+<meta name="renderer" content="webkit"><!--360默认急速模式打开-->
+${2}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>meta-keywords</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

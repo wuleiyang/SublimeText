@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<script src="http://apps.bdimg.com/libs/angular.js/1.4.0-beta.4/angular.min.js">${1}</script>
+${2}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bd-ng</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="jwplayer5.7.min.js"></script>
+  <script>
+	$(function(){
+		jwplayer("bjsx_PlayerSpace").setup({
+			flashplayer: "flvplayer.swf",
+			file: "xxx.flv",
+			width: 300,
+			height: 200,
+			controlbar: "bottom", //播放条位置
+			repeat:"always",//list列模式、none单曲模式、always循环模式
+			volume:50,  //音量
+			stretching:"fill",// fill按比例拉伸 uniform居中、exactfit拉伸、none无
+			autostart:true,  //是否自动播放
+			list:new Array({file:"xxx.flv"},{file:"xxx.flv"}),//列表,有列表不会读取file里的文件
+			skin:"skin\/snel.zip"
+
+		});
+	});
+  </script>
+ </HEAD>
+
+ <BODY>
+  <div id="bjsx_PlayerSpace"></div>
+ </BODY>
+</HTML>
